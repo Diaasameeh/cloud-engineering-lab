@@ -4,7 +4,7 @@ set -euo pipefail
 
 LOG_DIR="/var/log/novatech"
 BACKUP_DIR="/mnt/backup/logs"
-RETENTION_DAYS=30
+RETENTION_DAYS=14
 
 STAMP=$(date +%Y%m%d)
 tar -czf "${BACKUP_DIR}/logs-${STAMP}.tar.gz" -C "$LOG_DIR" .
