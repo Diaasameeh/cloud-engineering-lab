@@ -3,7 +3,7 @@
 set -euo pipefail
 
 HEALTH_URL="https://status.novatech.example/healthz"
-TIMEOUT=20
+TIMEOUT=10
 
 CODE=$(curl -s -o /dev/null -w '%{http_code}' --max-time "$TIMEOUT" "$HEALTH_URL")
 if [ "$CODE" != "200" ]; then
