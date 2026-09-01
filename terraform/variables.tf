@@ -17,8 +17,6 @@ variable "default_tags" {
   type = map(string)
   default = {
     environment = "dev"
-    owner="platform-team"
-    cost_centre="CC-4410"
-    data_classification = "confidential"
+    owner       = "cloud-team"
   }
 }
