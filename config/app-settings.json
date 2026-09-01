@@ -1,0 +1,6 @@
+{
+  "service": "novatech-platform",
+  "logLevel": "info",
+  "healthCheckIntervalSeconds": 60,
+  "region": "uksouth"
+}
