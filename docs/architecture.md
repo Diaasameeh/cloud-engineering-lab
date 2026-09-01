@@ -8,7 +8,7 @@ Logs are archived to a storage account created by `modules/storage-account`.
 ## Regions
 
 Primary region: UK South.
-Secondary region: UK West (disaster recovery).
+No secondary region yet.
 
 ## Environments
 
