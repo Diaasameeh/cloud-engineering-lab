@@ -2,7 +2,7 @@
 # Alert when disk usage on / passes THRESHOLD percent.
 set -euo pipefail
 
-THRESHOLD=80
+THRESHOLD=90
 
 USAGE=$(df -P / | awk 'NR==2 {gsub("%",""); print $5}')
 if [ "$USAGE" -gt "$THRESHOLD" ]; then
