@@ -16,7 +16,8 @@ variable "vm_size" {
 variable "default_tags" {
   type = map(string)
   default = {
-    environment = "dev"
-    owner       = "cloud-team"
+    environment         = "dev"
+    owner               = "platform-team"
+    data_classification = "confidential"
   }
 }
