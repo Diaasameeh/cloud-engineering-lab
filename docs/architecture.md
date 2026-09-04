@@ -16,3 +16,7 @@ No secondary region yet.
 | --- | --- | --- |
 | dev | novatech-platform-dev | Engineering changes land here first |
 | prod | novatech-platform-prod | Customer-facing platform services |
+
+## Tagging
+
+Data classification tags are required on all resources.
