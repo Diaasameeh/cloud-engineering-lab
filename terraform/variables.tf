@@ -18,5 +18,6 @@ variable "default_tags" {
   default = {
     environment = "dev"
     owner       = "cloud-team"
+    cost_centre = "CC-4410"
   }
 }
