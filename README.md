@@ -10,6 +10,7 @@ Platform team repository for NovaTech Financial Group's Azure landing zone tooli
 | `scripts/backup-logs.sh` | Archives application logs to the backup share |
 | `scripts/health-check.sh` | Calls the platform health endpoint |
 | `scripts/check-cpu.sh` | Alerts when CPU load passes the threshold |
+| `scripts/rotate-logs.sh` | Rotates application logs daily |
 
 ## Terraform
 
