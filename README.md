@@ -20,4 +20,4 @@ Environment values live in `terraform/environments/`.
 
 Read `CONTRIBUTING.md` before you change anything.
 
-Last reviewed: 2026-09-01
+Last reviewed: 2026-10-16
